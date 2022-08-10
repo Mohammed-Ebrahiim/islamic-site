@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الموعظه</title>
+    <!-- Thuluth font -->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated" />
+    <!-- Cairo font -->
+    <link rel="stylesheet" type="text/css" href="https://www.fontstatic.com/f=thuluth-decorated,cairo-bold" />
+    <!-- Fontawesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Main style Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header" id="nav">
+        <div class="container">
+            <div class="logo"> الموعظه الحسنه</div>
+            <ul>
+                <li data-filter="main" class="active">الصفحه الرئيسيه</li>
+                <li data-filter="hadith">أحاديث</li>
+                <li data-filter="lectures">المحاضرات</li>
+                <li data-filter="quran">القرآن الكريم</li>
+                <li data-filter="prayTimes"> أوقات الصلاه</li>
+                <li data-filter="footer"> تواصل معنا</li>
+            </ul>
+            <div class="bars">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <div class="container">
+            <div class="title">
+                <h2>
+                    مرحبا بك فى 
+                    <br>
+                    موقع الموعظه الإسلامي
+                </h2>
+                <button class="btn">
+                    أبدأ التصفح 
+                    <i class="fas fa-caret-left"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+    <!-- ########################################## Hadith Sec -->
+    <section class="hadith">
+        <h3>أحاديث</h3>
+        <div class="container">
+            <div class="hadithContainer">
+            </div>
+            <div class="buttons">
+                <div class="prev">السابق</div>   
+                <div class="number"></div>
+                <div class="next">التالي</div>   
+            </div>
+        </div>
+    </section>
+
+    <!-- المحاضرات  -->
+    <section class="lectures">
+        <h3>المحاضرات</h3>
+        <div class="container">
+            <div class="lec-container">
+                <div class="rightSide">
+                    <div class="lec">
+                        <div class="text">
+                            <h4> لماذا نزل القرءان عربيا</h4>
+                            <p>  محاضراه رائعه من تقديم فضيله الشيخ محمد متولى الشعراوى</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/sha.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="lec">
+                        <div class="text">
+                            <h4> لماذا نزل القرءان عربيا</h4>
+                            <p>  محاضراه رائعه من تقديم فضيله الشيخ محمد متولى الشعراوى</p>
+
+                        </div>
+                        <div class="image">
+                            <img src="images/sha.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="lec">
+                        <div class="text">
+                            <h4> لماذا نزل القرءان عربيا</h4>
+                            <p>  محاضراه رائعه من تقديم فضيله الشيخ محمد متولى الشعراوى</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/sha.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="lec">
+                        <div class="text">
+                            <h4> لماذا نزل القرءان عربيا</h4>
+                            <p>  محاضراه رائعه من تقديم فضيله الشيخ محمد متولى الشعراوى</p>
+                        </div>
+                        <div class="image">
+                            <img src="images/sha.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="leftSide">
+                    <iframe src="https://www.youtube.com/embed/oR0CcwXveEI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <br>
+                    <p>اللّهم إنى﻿ أعلم أنى عاصيك، ولكنى أحب من يطيعك، فأجعل اللّهم حبّى لمن" أطاعك شفاعةً تُقبل لمن عصاك. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- القرآن الكريم -->
+    <section class="quran">
+        <h3 style="font-family: thuluth-decorated; font-size: 50px;">القرآن الكريم</h3>
+        <div class="container">
+            <div class="surhasContainer">
+                <div class="surha">
+                    <p>الفاتحه</p>
+                    <p>Fataha</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pop Up Section -->
+    <div class="surah-popUp">
+        <div class="close-popUp">
+            <i class="fas fa-times"></i>
+        </div>
+        <div class="ayat">
+            <!-- <p>Lorem ipsum dolor sit amet.</p> -->
+        </div>
+    </div>
+
+
+    <!-- Pray Times -->
+    <section class="prayTimes">
+        <h3>أوقات الصلاه</h3>
+        <div class="container">
+            <div class="cards">
+                
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <section class="footer">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path  fill-opacity="1" d="M0,32L12.6,48C25.3,64,51,96,76,122.7C101.1,149,126,171,152,202.7C176.8,235,202,277,227,261.3C252.6,245,278,171,303,117.3C328.4,64,354,32,379,21.3C404.2,11,429,21,455,69.3C480,117,505,203,531,213.3C555.8,224,581,160,606,133.3C631.6,107,657,117,682,128C707.4,139,733,149,758,176C783.2,203,808,245,834,266.7C858.9,288,884,288,909,272C934.7,256,960,224,985,197.3C1010.5,171,1036,149,1061,128C1086.3,107,1112,85,1137,106.7C1162.1,128,1187,192,1213,213.3C1237.9,235,1263,213,1288,202.7C1313.7,192,1339,192,1364,192C1389.5,192,1415,192,1427,192L1440,192L1440,320L1427.4,320C1414.7,320,1389,320,1364,320C1338.9,320,1314,320,1288,320C1263.2,320,1238,320,1213,320C1187.4,320,1162,320,1137,320C1111.6,320,1086,320,1061,320C1035.8,320,1011,320,985,320C960,320,935,320,909,320C884.2,320,859,320,834,320C808.4,320,783,320,758,320C732.6,320,707,320,682,320C656.8,320,632,320,606,320C581.1,320,556,320,531,320C505.3,320,480,320,455,320C429.5,320,404,320,379,320C353.7,320,328,320,303,320C277.9,320,253,320,227,320C202.1,320,177,320,152,320C126.3,320,101,320,76,320C50.5,320,25,320,13,320L0,320Z"></path></svg>
+        <div class="social" style="direction: ltr">
+            <a href="https://www.facebook.com/mohammed.hommos.5" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/muhammmed_ebrahiiim/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/mohamed-ebrahiim-9737ba240/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://wa.me/201094968733" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="mhmdhms509@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+
+        </div>
+    </section>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
